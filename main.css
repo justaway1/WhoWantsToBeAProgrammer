@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+::selection {
+    background: transparent;
+}
+
+/* Head Introduction */
+.title-container {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: rgba(79, 83, 87, 0.988);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 0.9;
+    box-shadow: -2px 5px 3px rgba(0, 0, 0, 0.195);
+}
+
+.title-container h1 {
+    color: #fff;
+}
+
+.title-word {
+    color: rgb(205, 77, 26);
+}
+
+.title-container .programmer {
+    font-size: 4rem;
+    letter-spacing: -2px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 10px;
+}
+
+.programmer::first-letter {
+    color: rgb(205, 77, 26);
+}
+
+
+.the-creator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.creator {
+    background-color: rgb(205, 77, 26);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 5px;
+
+}
+
+
+/*  INFORMATION SECTION */
+
+.information-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info-rules {
+    background-color: rgba(79, 83, 87, 0.638);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px 5px;
+    box-shadow: -2px 3px 5px rgb(0, 0, 0);
+}
