@@ -22,7 +22,7 @@ h1 {
 
 
 a {
-    text-decoration:  none;
+    text-decoration: none;
 }
 
 ::selection {
@@ -56,9 +56,9 @@ a {
 
 }
 
-.questions p{
+.questions p {
     margin-top: 5px;
-    
+
 }
 
 .answers {
@@ -67,9 +67,9 @@ a {
     text-align: center;
 }
 
-.answers .choice-a, 
-.answers .choice-b, 
-.answers .choice-c, 
+.answers .choice-a,
+.answers .choice-b,
+.answers .choice-c,
 .answers .choice-d {
     color: var(--textColor);
     margin-right: 10px;

@@ -51,7 +51,7 @@ function answerThree() {
     });
 
     setTimeout(function () {
-        location.href = '../third/index.html';
+        location.href = '../Third/index.html';
     }, 2000);
 };
 
