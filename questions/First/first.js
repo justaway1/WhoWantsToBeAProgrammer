@@ -50,7 +50,7 @@ function answerOne() {
     });
 
     setTimeout(function () {
-        location.href = '../Second/secondQuestion.html';
+        location.href = '../Second/index.html';
     }, 2000);
 };
 
