@@ -51,7 +51,7 @@ function answerThree() {
     });
 
     setTimeout(function () {
-        location.href = '../third/ThirdQuestion.html';
+        location.href = '../third/index.html';
     }, 2000);
 };
 
@@ -128,7 +128,7 @@ function tryAgain() {
     button.setAttribute('id', 'tryAgain');
     document.getElementById('theCash').appendChild(button);
     button.onclick = () => {
-        location.href = '../../../../../questions/First/firstQuestion.html';
+        location.href = '../../../../../questions/First/index.html';
 
 
     }
