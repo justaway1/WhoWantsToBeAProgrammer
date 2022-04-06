@@ -128,7 +128,7 @@ function tryAgain() {
     button.setAttribute('id', 'tryAgain');
     document.getElementById('theCash').appendChild(button);
     button.onclick = () => {
-        location.href = '/questions/First/index.html';
+        location.href = './questions/First/index.html';
 
 
     }
