@@ -92,7 +92,7 @@ function answerOne() {
 
 
 function answerFour() {
-    if(questionTwoAnswers['id-d'] === 'ecma2013') {
+    if (questionTwoAnswers['id-d'] === 'ecma2013') {
         answerOneA.removeEventListener('click', answerOne);
         answerOneB.removeEventListener('click', answerTwo);
         answerOneC.removeEventListener('click', answerThree);
