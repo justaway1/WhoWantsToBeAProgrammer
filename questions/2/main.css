@@ -7,6 +7,7 @@
 :root {
     --backgroundColor: rgba(79, 83, 87, 0.988);
     --textColor: rgb(205, 77, 26);
+    --sidecolor: rgb(201, 130, 8);
 }
 
 img {
@@ -315,7 +316,7 @@ a {
     padding: 30px;
     border-radius: 50px;
     width: 75%;
-    height: 400px;
+    height: 450px;
     margin-left: 20px;
 
 }
@@ -407,4 +408,10 @@ a {
 #tryAgain:hover {
     background-color: var(--textColor);
     color: #fff;
+}
+
+#tryAgainButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

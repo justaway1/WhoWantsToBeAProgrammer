@@ -7,6 +7,7 @@
 :root {
     --backgroundColor: rgba(79, 83, 87, 0.988);
     --textColor: rgb(205, 77, 26);
+    --sidecolor: rgb(201, 130, 8);
 }
 
 img {
@@ -21,7 +22,7 @@ h1 {
 
 
 a {
-    text-decoration:  none;
+    text-decoration: none;
 }
 
 ::selection {
@@ -153,15 +154,15 @@ a {
 .separator-1 {
     margin-bottom: 15px;
 }
- 
-.questions p:nth-child(10), 
-.questions p:nth-child(11), 
-.questions p:nth-child(12), 
-.questions p:nth-child(13), 
-.questions p:nth-child(14), 
-.questions p:nth-child(15), 
-.questions p:nth-child(16), 
-.questions p:nth-child(17), 
+
+.questions p:nth-child(10),
+.questions p:nth-child(11),
+.questions p:nth-child(12),
+.questions p:nth-child(13),
+.questions p:nth-child(14),
+.questions p:nth-child(15),
+.questions p:nth-child(16),
+.questions p:nth-child(17),
 .questions p:nth-child(18) {
     text-indent: 12px;
 }
@@ -177,7 +178,7 @@ a {
 }
 
 .pointsQuestions {
-    color: black;   
+    color: black;
     background-color: rgba(79, 83, 87, 0.237);
     padding: 15px;
     border-radius: 5px;
@@ -294,9 +295,9 @@ a {
 
 
 
- /* Main style of the questions */
+/* Main style of the questions */
 
- .main-container {
+.main-container {
     width: 90%;
     margin: 10px auto;
 }
@@ -315,14 +316,14 @@ a {
     padding: 30px;
     border-radius: 50px;
     width: 75%;
-    height: 400px;
+    height: 450px;
     margin-left: 20px;
 
 }
 
-.questions p{
+.questions p {
     margin-top: 5px;
-    
+
 }
 
 .answers {
@@ -331,9 +332,9 @@ a {
     text-align: center;
 }
 
-.answers .choice-a, 
-.answers .choice-b, 
-.answers .choice-c, 
+.answers .choice-a,
+.answers .choice-b,
+.answers .choice-c,
 .answers .choice-d {
     color: var(--textColor);
     margin-right: 10px;
@@ -407,4 +408,10 @@ a {
 #tryAgain:hover {
     background-color: var(--textColor);
     color: #fff;
+}
+
+#tryAgainButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

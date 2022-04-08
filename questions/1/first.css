@@ -51,7 +51,7 @@ a {
     padding: 30px;
     border-radius: 50px;
     width: 75%;
-    height: 400px;
+    height: 450px;
     margin-left: 20px;
 
 }
@@ -124,4 +124,10 @@ a {
 #sidemoney {
     background-color: rgb(201, 130, 8);
     border-radius: 10px;
+}
+
+#tryAgainButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
