@@ -69,7 +69,7 @@ function AnswerTwo() {
 
     }
     setTimeout(function () {
-        location.href = '../'
+        location.href = '../6/index.html';
 
     }, 4000);
     
