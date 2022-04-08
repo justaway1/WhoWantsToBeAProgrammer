@@ -44,7 +44,7 @@ function AnswerOne() {
         showcash.setAttribute('id', 'showingMoney');
         showcash.innerHTML = '0$';
     }
-    
+
     setTimeout(function () {
         tryAgain();
 
@@ -72,7 +72,7 @@ function AnswerTwo() {
         location.href = '../6/index.html';
 
     }, 4000);
-    
+
 }
 
 function answerThree() {
@@ -87,7 +87,7 @@ function answerThree() {
         showcash.setAttribute('id', 'showingMoney');
         showcash.innerHTML = '0$'
     }
-    
+
     setTimeout(function () {
         tryAgain();
 
