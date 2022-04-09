@@ -1,4 +1,4 @@
-const questionSixAnswers = {
+const questionnineAnswers = {
     'id-a': 'A',
     'id-b': 'B',
     'id-c': 'C',
@@ -6,12 +6,12 @@ const questionSixAnswers = {
 };
 
 
-const AnswerSixA = document.getElementById('question-six-id-a');
-const AnswerSixB = document.getElementById('question-six-id-b');
-const AnswerSixC = document.getElementById('question-six-id-c');
-const AnswerSixD = document.getElementById('question-six-id-d');
+const AnswernineA = document.getElementById('question-nine-id-a');
+const AnswernineB = document.getElementById('question-nine-id-b');
+const AnswernineC = document.getElementById('question-nine-id-c');
+const AnswernineD = document.getElementById('question-nine-id-d');
 const showcash = document.getElementById('theCash');
-const sideMoney = document.getElementById('sixSum');
+const sideMoney = document.getElementById('nineSum');
 const choiceA = document.querySelector('.choice-a');
 const choiceB = document.querySelector('.choice-b');
 const choiceC = document.querySelector('.choice-c');
@@ -24,21 +24,21 @@ const removetheAnswer = document.getElementById('removeAnswer');
 const tryagain = document.getElementById('tryAgainButton')
 
 
-AnswerSixA.addEventListener('click', AnswerOne);
-AnswerSixB.addEventListener('click', AnswerTwo);
-AnswerSixC.addEventListener('click', answerThree);
-AnswerSixD.addEventListener('click', answerFour);
+AnswernineA.addEventListener('click', AnswerOne);
+AnswernineB.addEventListener('click', AnswerTwo);
+AnswernineC.addEventListener('click', answerThree);
+AnswernineD.addEventListener('click', answerFour);
 // removetheAnswer.addEventListener('click', removeAnswer);
 
 function AnswerOne() {
 
-    if (questionSixAnswers["id-a"] === 'A') {
-        AnswerSixA.removeEventListener('click', AnswerOne);
-        AnswerSixB.removeEventListener('click', AnswerTwo);
-        AnswerSixC.removeEventListener('click', answerThree);
-        AnswerSixD.removeEventListener('click', answerFour);
+    if (questionnineAnswers["id-a"] === 'A') {
+        AnswernineA.removeEventListener('click', AnswerOne);
+        AnswernineB.removeEventListener('click', AnswerTwo);
+        AnswernineC.removeEventListener('click', answerThree);
+        AnswernineD.removeEventListener('click', answerFour);
         // removetheAnswer.removeEventListener('click', removeAnswer);
-        AnswerSixA.style.background = 'red';
+        AnswernineA.style.background = 'red';
         showcash.setAttribute('id', 'showingMoney');
         showcash.innerHTML = '1000$';
     }
@@ -54,13 +54,13 @@ function AnswerOne() {
 
 function AnswerTwo() {
 
-    if (questionSixAnswers["id-b"] === 'B') {
-        AnswerSixB.removeEventListener('click', AnswerTwo);
-        AnswerSixA.removeEventListener('click', AnswerOne);
-        AnswerSixC.removeEventListener('click', answerThree);
-        AnswerSixD.removeEventListener('click', answerFour);
+    if (questionnineAnswers["id-b"] === 'B') {
+        AnswernineB.removeEventListener('click', AnswerTwo);
+        AnswernineA.removeEventListener('click', AnswerOne);
+        AnswernineC.removeEventListener('click', answerThree);
+        AnswernineD.removeEventListener('click', answerFour);
         // removetheAnswer.removeEventListener('click', removeAnswer);
-        AnswerSixB.style.background = 'red';
+        AnswernineB.style.background = 'red';
         choiceB.style.color = 'white';
         showcash.setAttribute('id', 'showingMoney');
         showcash.innerHTML = '1000$';
@@ -74,33 +74,34 @@ function AnswerTwo() {
 }
 
 function answerThree() {
-    if (questionSixAnswers["id-c"] === 'C') {
-        AnswerSixA.removeEventListener('click', AnswerOne);
-        AnswerSixB.removeEventListener('click', AnswerTwo);
-        AnswerSixD.removeEventListener('click', answerFour);
+    if (questionnineAnswers["id-c"] === 'C') {
+        AnswernineA.removeEventListener('click', AnswerOne);
+        AnswernineB.removeEventListener('click', AnswerTwo);
+        AnswernineD.removeEventListener('click', answerFour);
+        AnswernineC.removeEventListener('click', answerThree);
         // removetheAnswer.removeEventListener('click', removeAnswer);
-        AnswerSixC.style.background = 'green';
+        AnswernineC.style.background = 'green';
         sideMoney.setAttribute('id', 'sidemoney');
         showcash.setAttribute('id', 'showingMoney');
-        showcash.innerHTML = '2 000$';
+        showcash.innerHTML = '16 000$';
     }
     
     setTimeout(function () {
-        location.href = '../7/index.html';
+        location.href = '../9/index.html';
 
-    }, 2000);
+    }, 1500);
 
 }
 
 
 function answerFour() {
-    if (questionSixAnswers['id-d'] === 'D') {
-        AnswerSixA.removeEventListener('click', AnswerOne);
-        AnswerSixB.removeEventListener('click', AnswerTwo);
-        AnswerSixC.removeEventListener('click', answerThree);
-        AnswerSixD.removeEventListener('click', answerFour);
+    if (questionnineAnswers['id-d'] === 'D') {
+        AnswernineA.removeEventListener('click', AnswerOne);
+        AnswernineB.removeEventListener('click', AnswerTwo);
+        AnswernineC.removeEventListener('click', answerThree);
+        AnswernineD.removeEventListener('click', answerFour);
         // removetheAnswer.removeEventListener('click', removeAnswer);
-        AnswerSixD.style.background = 'red';
+        AnswernineD.style.background = 'red';
         showcash.setAttribute('id', 'showingMoney');
         showcash.innerHTML = '1000$';
     }
@@ -123,10 +124,10 @@ function answerFour() {
 // The Try Again Button
 
 function tryAgain() {
-    AnswerSixA.removeEventListener('click', AnswerOne);
-    AnswerSixD.removeEventListener('click', answerFour);
-    AnswerSixC.removeEventListener('click', answerThree);
-    AnswerSixB.removeEventListener('click', AnswerOne);
+    AnswernineA.removeEventListener('click', AnswerOne);
+    AnswernineD.removeEventListener('click', answerFour);
+    AnswernineC.removeEventListener('click', answerThree);
+    AnswernineB.removeEventListener('click', AnswerOne);
     let button = document.createElement('input');
     button.type = 'button';
     button.value = 'Try Again?';

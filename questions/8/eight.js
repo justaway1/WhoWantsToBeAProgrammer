@@ -1,4 +1,4 @@
-const questionSixAnswers = {
+const questioneightAnswers = {
     'id-a': 'A',
     'id-b': 'B',
     'id-c': 'C',
@@ -6,12 +6,12 @@ const questionSixAnswers = {
 };
 
 
-const AnswerSixA = document.getElementById('question-six-id-a');
-const AnswerSixB = document.getElementById('question-six-id-b');
-const AnswerSixC = document.getElementById('question-six-id-c');
-const AnswerSixD = document.getElementById('question-six-id-d');
+const AnswereightA = document.getElementById('question-eight-id-a');
+const AnswereightB = document.getElementById('question-eight-id-b');
+const AnswereightC = document.getElementById('question-eight-id-c');
+const AnswereightD = document.getElementById('question-eight-id-d');
 const showcash = document.getElementById('theCash');
-const sideMoney = document.getElementById('sixSum');
+const sideMoney = document.getElementById('eightSum');
 const choiceA = document.querySelector('.choice-a');
 const choiceB = document.querySelector('.choice-b');
 const choiceC = document.querySelector('.choice-c');
@@ -24,21 +24,21 @@ const removetheAnswer = document.getElementById('removeAnswer');
 const tryagain = document.getElementById('tryAgainButton')
 
 
-AnswerSixA.addEventListener('click', AnswerOne);
-AnswerSixB.addEventListener('click', AnswerTwo);
-AnswerSixC.addEventListener('click', answerThree);
-AnswerSixD.addEventListener('click', answerFour);
+AnswereightA.addEventListener('click', AnswerOne);
+AnswereightB.addEventListener('click', AnswerTwo);
+AnswereightC.addEventListener('click', answerThree);
+AnswereightD.addEventListener('click', answerFour);
 // removetheAnswer.addEventListener('click', removeAnswer);
 
 function AnswerOne() {
 
-    if (questionSixAnswers["id-a"] === 'A') {
-        AnswerSixA.removeEventListener('click', AnswerOne);
-        AnswerSixB.removeEventListener('click', AnswerTwo);
-        AnswerSixC.removeEventListener('click', answerThree);
-        AnswerSixD.removeEventListener('click', answerFour);
+    if (questioneightAnswers["id-a"] === 'A') {
+        AnswereightA.removeEventListener('click', AnswerOne);
+        AnswereightB.removeEventListener('click', AnswerTwo);
+        AnswereightC.removeEventListener('click', answerThree);
+        AnswereightD.removeEventListener('click', answerFour);
         // removetheAnswer.removeEventListener('click', removeAnswer);
-        AnswerSixA.style.background = 'red';
+        AnswereightA.style.background = 'red';
         showcash.setAttribute('id', 'showingMoney');
         showcash.innerHTML = '1000$';
     }
@@ -54,13 +54,13 @@ function AnswerOne() {
 
 function AnswerTwo() {
 
-    if (questionSixAnswers["id-b"] === 'B') {
-        AnswerSixB.removeEventListener('click', AnswerTwo);
-        AnswerSixA.removeEventListener('click', AnswerOne);
-        AnswerSixC.removeEventListener('click', answerThree);
-        AnswerSixD.removeEventListener('click', answerFour);
+    if (questioneightAnswers["id-b"] === 'B') {
+        AnswereightB.removeEventListener('click', AnswerTwo);
+        AnswereightA.removeEventListener('click', AnswerOne);
+        AnswereightC.removeEventListener('click', answerThree);
+        AnswereightD.removeEventListener('click', answerFour);
         // removetheAnswer.removeEventListener('click', removeAnswer);
-        AnswerSixB.style.background = 'red';
+        AnswereightB.style.background = 'red';
         choiceB.style.color = 'white';
         showcash.setAttribute('id', 'showingMoney');
         showcash.innerHTML = '1000$';
@@ -74,33 +74,33 @@ function AnswerTwo() {
 }
 
 function answerThree() {
-    if (questionSixAnswers["id-c"] === 'C') {
-        AnswerSixA.removeEventListener('click', AnswerOne);
-        AnswerSixB.removeEventListener('click', AnswerTwo);
-        AnswerSixD.removeEventListener('click', answerFour);
+    if (questioneightAnswers["id-c"] === 'C') {
+        AnswereightA.removeEventListener('click', AnswerOne);
+        AnswereightB.removeEventListener('click', AnswerTwo);
+        AnswereightD.removeEventListener('click', answerFour);
         // removetheAnswer.removeEventListener('click', removeAnswer);
-        AnswerSixC.style.background = 'green';
+        AnswereightC.style.background = 'green';
         sideMoney.setAttribute('id', 'sidemoney');
         showcash.setAttribute('id', 'showingMoney');
-        showcash.innerHTML = '2 000$';
+        showcash.innerHTML = '8 000$';
     }
     
     setTimeout(function () {
-        location.href = '../7/index.html';
+        location.href = '../9/index.html';
 
-    }, 2000);
+    }, 1500);
 
 }
 
 
 function answerFour() {
-    if (questionSixAnswers['id-d'] === 'D') {
-        AnswerSixA.removeEventListener('click', AnswerOne);
-        AnswerSixB.removeEventListener('click', AnswerTwo);
-        AnswerSixC.removeEventListener('click', answerThree);
-        AnswerSixD.removeEventListener('click', answerFour);
+    if (questioneightAnswers['id-d'] === 'D') {
+        AnswereightA.removeEventListener('click', AnswerOne);
+        AnswereightB.removeEventListener('click', AnswerTwo);
+        AnswereightC.removeEventListener('click', answerThree);
+        AnswereightD.removeEventListener('click', answerFour);
         // removetheAnswer.removeEventListener('click', removeAnswer);
-        AnswerSixD.style.background = 'red';
+        AnswereightD.style.background = 'red';
         showcash.setAttribute('id', 'showingMoney');
         showcash.innerHTML = '1000$';
     }
@@ -123,10 +123,10 @@ function answerFour() {
 // The Try Again Button
 
 function tryAgain() {
-    AnswerSixA.removeEventListener('click', AnswerOne);
-    AnswerSixD.removeEventListener('click', answerFour);
-    AnswerSixC.removeEventListener('click', answerThree);
-    AnswerSixB.removeEventListener('click', AnswerOne);
+    AnswereightA.removeEventListener('click', AnswerOne);
+    AnswereightD.removeEventListener('click', answerFour);
+    AnswereightC.removeEventListener('click', answerThree);
+    AnswereightB.removeEventListener('click', AnswerOne);
     let button = document.createElement('input');
     button.type = 'button';
     button.value = 'Try Again?';
