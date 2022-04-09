@@ -87,7 +87,7 @@ function answerThree() {
     }
     
     setTimeout(function () {
-        location.href = '../9/index.html';
+        location.href = '../10/index.html';
 
     }, 1500);
 
