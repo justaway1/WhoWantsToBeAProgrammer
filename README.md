@@ -23,7 +23,7 @@ There's 2 safe Checkpoints at **$1000** and **$32 000**!
 
 <h2>If you get some of the questions wrong, no worries!
 
-You can always Try Again!</h2>
+You can always Try Again!!!</h2>
 
 ![wrong](https://user-images.githubusercontent.com/44018646/185116196-fc6d005c-8c5e-47b8-b2ff-e474fbae2620.jpg)
 
