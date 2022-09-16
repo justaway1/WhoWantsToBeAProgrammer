@@ -1,6 +1,6 @@
 <h1>Project Info:</h1>
 
-<h1 align="center">Who Wants to be a programmer</h1>.
+<h1 align="center">Who Wants to be a programmer</h1>
 <p align='center'>Inspired by the popular TVShow Game ( Who wants to be a millionaire)</p>
 
 ![programmer](https://user-images.githubusercontent.com/44018646/185114613-d0eee69b-40c1-4baa-b847-dd0cd1ab4d95.jpg)
