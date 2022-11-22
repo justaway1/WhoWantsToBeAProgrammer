@@ -8,7 +8,7 @@
 <h2>Tech Used:</h2>
 
 - HTML5...
-- CSS3
+- CSS3...
 - JS
 
 **Live Preview [here](https://justaway1.github.io/WhoWantsToBeAProgrammer/)**
