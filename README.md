@@ -7,7 +7,7 @@
 
 <h2>Tech Used:</h2>
 
-- HTML5
+- HTML5...
 - CSS3
 - JS
 
